@@ -926,7 +926,7 @@ body #third .display {
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
           order: -1;
-  background: url("./img/02.jpg") no-repeat bottom right;
+  background: url("/img/02.jpg") no-repeat bottom right;
   background-size: cover;
 }
 
