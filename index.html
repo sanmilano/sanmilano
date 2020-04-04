@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Milano</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/bec2a14a05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="main-header wrap">
+        <div>
+            <h1><a href="#"><b>san</b>milano</a></h1>
+        </div>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="menu-icon__line"></span>
+        </label>
+        <ul class="nav-links">
+            <li class="nav-link"><a href="#second">Resume</a></li>
+            <li class="nav-link"><a href="#third">Contact</a></li>
+            <li class="nav-link"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="nav-link"><a href="#"><i class="fab fa-behance"></i></a></li>
+            <li class="nav-link"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </header>
+
+    <!-- First Section -->
+    <section id="first" class="wrap">
+        <h2>I’m looking foward to <br> start developing <br> cool user experiences!</h2>
+        <h3>Junior UX/UI Developer</h3>
+        <div class="btn-container">
+            <a href="#second" class="btn btnPrimary">See my skills</a> 
+        </div>      
+    </section>
+
+    <!-- Second Section -->
+    <section id="second" class="wrap">
+        <h2>Hello!</h2>
+        <h4>I’m <b>Santiago Milano</b>! I’m an <i>illustrator and tattoo artist</i> but before I’ve worked as graphic designer for almost ten years. I’m actually updating my coding skills and ready to try them on the <i>front-end developer</i> field!</h4>
+        <figure>
+            <img src="img/san.jpg" alt="Santiago Milano Tattooing">
+        </figure>
+        <adress>
+            <h5>Datos personales</h5>
+            <p><b>Edad:</b> 34</p>
+            <p>Argentino</p>
+            <p>Coghlan, C.A.B.A.</p>
+            <p>(+54) 9 11 3452 3791</p>
+        </adress>
+        <div class="skills">
+            <h5>Skills</h5>
+            <ul>
+                <li><p>Adobe Illustrator</p><span class="bar"><span class="illus"></span></span></li>
+                <li><p>Adobe Photoshop</p><span class="bar"><span class="aphoto"></span></span></li>
+                <li><p>Adobe InDesign</p><span class="bar"><span class="indsgn"></span></span></li>
+                <li><p>Adobe After Effects</p><span class="bar"><span class="aeffects"></span></span></li>
+                <li><p>Figma</p><span class="bar"><span class="figma"></span></span></li>
+                <li><p>HTML</p><span class="bar"><span class="htmls"></span></span></li>
+                <li><p>CSS / SASS</p><span class="bar"><span class="cssass"></span></span></li>
+                <li><p>JS</p><span class="bar"><span class="javas"></span></span></li>
+            </ul>
+        </div>
+        <div class="btn-container">
+            <a href="#third" class="btn btnPrimary">Contact me</a>
+        </div>
+    </section>
+
+    <!-- Third Section -->
+    <section id="third" class="wrap">
+        <div class="display">
+        </div>
+        <div class="third-titles">
+            <h2>Get in touch</h2>
+            <h4>Or leave me some feedback, I would really appreaciate it!<br>Also, you can write an e-mail: santiagomilano@gmail.com</h4>
+        </div>
+        <div class="form-container">
+            <div id="error_message">
+     
+            </div>
+            <form action="" id="myform" onsubmit = "return validate();">
+              <div class="input_field">
+                  <input type="text" placeholder="What is your name?" id="name" name="name" required>
+                  <label for="name">Name</label>
+              </div>
+              <div class="input_field">
+                  <input type="email" placeholder="...and your Email?" id="email" name="email" required>
+                  <label for="email">E-mail</label>
+              </div>
+              <div class="input_field">
+                  <textarea placeholder="Leave some comments here!" id="message" name="comments" required></textarea>
+                  <label for="comments">Your comment</label>
+              </div>
+              <div class="submit-btn">
+                <input type="submit" value="Send">
+            </div>
+            </form>
+        </div>    
+    </section>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

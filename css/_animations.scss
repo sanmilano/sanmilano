@@ -1,0 +1,137 @@
+@keyframes openTop {
+    0% {
+    transform: translateY(-5px)
+    rotate(0deg);
+    }
+    50% {
+        transform: translateY(0px)
+        rotate(0deg);
+    }
+    100% {
+        transform: translateY(0px)
+        rotate(90deg);
+    } 
+}
+@keyframes closedTop {
+    0% {
+    transform: translateY(-5px)
+    rotate(0deg);
+    }
+    50% {
+        transform: translateY(0px)
+        rotate(0deg);
+    }
+    100% {
+        transform: translateY(0px)
+        rotate(90deg);
+    } 
+}
+@keyframes openMid {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    } 
+}
+@keyframes closedMid {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(45deg);
+    } 
+}
+@keyframes openBtm {
+    0% {
+    transform: translateY(5px)
+    rotate(0deg);
+    }
+    50% {
+        transform: translateY(0px)
+        rotate(0deg);
+    }
+    100% {
+        transform: translateY(0px)
+        rotate(90deg);
+    } 
+}
+@keyframes closedBtm {
+    0% {
+    transform: translateY(5px)
+    rotate(0deg);
+    }
+    50% {
+        transform: translateY(0px)
+        rotate(0deg);
+    }
+    100% {
+        transform: translateY(0px)
+        rotate(90deg);
+    } 
+}
+// Bar's animations
+@keyframes illus {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@keyframes aphoto {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@keyframes indsgn {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+@keyframes aeffects {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes figma {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes htmls {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+@keyframes cssass {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
+@keyframes javas {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 30%;
+    }
+}
