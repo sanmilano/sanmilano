@@ -628,7 +628,7 @@ body section {
 }
 
 body section:nth-of-type(1) {
-  background: url("/img/01.jpg") no-repeat bottom center;
+  background: url("../img/01.jpg") no-repeat bottom center;
   background-size: cover;
 }
 
@@ -951,7 +951,7 @@ body #third .display {
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
           order: -1;
-  background: url("/img/02.jpg") no-repeat bottom right;
+  background: url("../img/02.jpg") no-repeat bottom right;
   background-size: cover;
 }
 
